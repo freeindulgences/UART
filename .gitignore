@@ -1,0 +1,10 @@
+﻿Debug/
+lst/
+obj/
+/.settings/*
+*.bak
+*.dep
+*.uvgui.*
+*.uvguix.*
+*.dbgconf
+EventRecorderStub.scvd
