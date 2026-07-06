@@ -1,0 +1,11 @@
+############################ Common warnings
+
+# ignore 64-bit warnings
+// -V::4
+
+###### MISRA
+
+# ignore MISRA C A function should have a single point of exit at the end.
+// -V::2506
+
+

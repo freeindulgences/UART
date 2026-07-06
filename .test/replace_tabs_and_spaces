@@ -1,0 +1,7 @@
+#!/usr/bin/gawk -f
+{ while (/^[[:blank:]]/) {
+    if (sub(/^ /,"")) printf "\\e[48;5;130m.\\e[0m";
+    if (sub(/^\t/,"")) printf "\\e[48;5;90m->\\e[0m";
+    }
+  print;
+}
